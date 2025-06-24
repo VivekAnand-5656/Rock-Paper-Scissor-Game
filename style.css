@@ -45,8 +45,7 @@ main{
     transition:all ease-in-out 0.5s;
 }
 .choice:hover{
-    transform:scale(1.2);
-    background:#690340;
+    transform:scale(1.2); 
 }
 .score-board{
     width: 30vw;
@@ -143,8 +142,10 @@ main{
     }
 
     .score {
-        width: 80%;
+        width: 40%;
+        height:50%;
         font-size: 1rem;
+        margin: auto;
     }
 
     #user,
